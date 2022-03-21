@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+.container-page6{
+    background-color: #E5F0FD;
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-family: inter;
+    margin-bottom: -1vw;
+}
+.content-page6{
+    width: 20vw;
+    height: auto;
+    margin-left: 10vw;
+    margin-top: 10vw;
+}
+.header-cont-page6{
+    color: #217BF4;
+    font-weight: 500;
+    font-size: 1.5vw;
+
+}
+.title-cont-page6{
+    color: #0A093D;
+    font-size: 3vw;
+    line-height: 4vw;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 30vw;
+}
+.main-cont-page6{
+    color: #656464;
+    font-size: 1.3vw;
+    text-align: justify;
+    width: 28vw;
+}
+.button-apps-store{
+    width: 30vw;
+    height: auto;
+}
+.button-apps-store button{
+   border: none;
+   background-color: #E5F0FD;
+   padding-left: 0;
+   margin-right: 1vw;
+}
+.button-apps-store img{
+    width: 12vw;
+    margin-left: 0;
+}
+.image-background-page6 img{
+    width: 50vw;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    margin-bottom: -0.3vw;
+}
+.image-background-page6{
+    margin-left: 5vw;
+    margin-bottom: 0vw;
+}
+.button-apps-store img:hover{
+    width: 13vw;
+}
+/* for mobile */
+@media screen and (max-width:680px) {
+    .container-page6{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content-page6{
+        width: 70vw;
+        height: auto;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+    .header-cont-page6, .title-cont-page6, .main-cont-page6{
+        width: 70vw;
+    }
+    .header-cont-page6{
+        font-size: 3vw;
+        
+    }
+    .title-cont-page6{
+        font-size: 5vw;
+        line-height: 5vw;
+        margin-bottom: 2vw;
+    }
+    .main-cont-page6{
+        font-size: 2vw;
+        text-align: center;
+    }
+    .button-apps-store{
+        width: 70vw;
+    }
+    .image-background-page6{
+        width: 70vw;
+        display: flex;
+        margin: auto;
+    }
+    .image-background-page6 img{
+        margin-bottom: -0.1vw;
+    }
+}

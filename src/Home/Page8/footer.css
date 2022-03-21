@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+.container-page8{
+    background: #2B2B39;
+    padding-bottom: 1vw;
+    width: 100%;
+    font-family: inter;
+}
+.main-footer{   
+    display: flex;
+    margin-left: 10vw;
+}
+.subsribe{
+    margin-top: 5vw;
+    width: 20vw;
+}
+.subsribe .title-home{
+    color: #ffff;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 1vw;
+}
+.subsribe p{
+    font-size: 1vw;
+    color: #E7E7E7;
+}
+.menu-footer{
+    margin-top: 5vw;
+    display: flex;
+    width: 60vw;
+}
+.home{
+    width: 15vw;
+    color: #ffff;
+}
+.home .title-home{
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 2vw;
+}
+.home p{
+    font-size: 1vw;
+    font-weight: 400;
+    color: #E7E7E7;
+}
+.subsribe input{
+    width: 18vw;
+    height: 3vw;
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: #2B2B39;
+    padding: 1vw;
+}
+.subsribe form{
+    width: 20vw;
+    margin-top: 2vw;
+    position: relative;
+}
+.subsribe button{
+    position: absolute;
+    left:11vw;
+    width: 8vw;
+    height: 3vw;
+    background: #FFFFFF;
+    border-radius: 1vw;
+    border: none;
+}
+.subsribe button:hover{
+    background: #217BF4;
+}
+.home p:hover{
+    color: #9d9da1;
+}
+.profile-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    margin-top: 2vw;
+}
+.name-profil-footer{
+    margin-left: 10vw;
+    font-size: 1vw;
+    font-weight: 400;
+    color: #F6F6F6;
+}
+.logo-footer img{
+    width: 10vw;
+    margin-top: 0.5vw;
+    vertical-align: middle;
+}
+.sosmed-footer{
+    width: 12vw;
+    margin-top: 0.5vw;
+    margin-right: 10vw;
+}
+.sosmed-footer img{
+    width: 2vw;
+    margin-left: 1vw;
+    vertical-align: middle;
+}
+.sosmed-footer img:hover{
+    width: 2.2vw;
+}
+@media screen and (max-width:680px) {
+    .main-footer{
+        flex-direction: column;
+    }
+    .menu-footer{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .home{
+        flex: 1;
+    }
+    .home .title-home{
+        font-size: 3vw;
+    }
+    .home p{
+        font-size: 1.5vw;
+    }
+    .subsribe{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+    .subsribe .title-home{
+        margin: auto;
+        margin-top: 2vw;
+        font-size: 3vw;
+    }
+    .subsribe p{
+        font-size: 1.5vw;
+        margin: auto;
+        margin-top:1vw ;
+    }
+    .subsribe form{
+        width: 100%;
+        display: flex;
+        margin: auto;
+    }
+    .subsribe input{
+        margin: auto;
+        width: 50vw;
+        height: 5vw;
+        border-radius: 1vw;
+        font-size: 2vw;
+        margin-top: 2vw;
+    }
+    .subsribe button{
+        left: 50vw;
+        top:2vw;
+        width: 20vw;
+        height: 5vw;
+        font-size: 2.5vw;
+
+    }
+    .logo-footer img{
+        margin-top: 0;
+    }
+    .name-profil-footer{
+        text-align: center;
+        line-height: 3vw;
+    }
+}

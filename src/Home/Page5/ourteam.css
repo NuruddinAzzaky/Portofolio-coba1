@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+.container-page5{
+    width: 100%;
+    height: 776px;
+    padding: 0;
+    margin: auto;
+    font-family: inter;
+}
+.header-page5{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title-page5, .subtitle-page5, .main-page5, .option-header{
+    margin: auto;
+}
+.title-page5{
+    color: #217BF4;
+    font-size: 1.5vw;
+    font-family: inter;
+    font-weight: 500;
+    line-height: 1.5vw;
+    margin-bottom: 0.8vw;
+}
+.subtitle-page5{
+    color:#0A093D;
+    font-family: inter;
+    font-weight: 700;
+    font-size: 3vw;
+    line-height: 3vw;
+    margin-bottom: 2vw;
+}
+.main-page5{
+    width: 38vw;
+    text-align: center;
+    color: #656464;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 1.3vw;
+    margin-bottom: 3vw;
+}
+.option-header{
+    background: #e1edfc;
+    border-radius: 14px;
+    width: 32vw;
+    height:5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.5vw;
+}
+.option-header button{
+    border: none;
+    background: #e1edfc;
+    width: 10.5vw;
+    border-radius: 14px;
+    color: #2F2C4A;
+    font-family: inter;
+    font-size: 1.3vw;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.option-header button:hover{
+    background: #217BF4;
+}
+.content-page5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+}
+.card{
+    background: #ffff;
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+    border-radius: 14px;
+    width: 18vw;
+    height: auto;
+    position: relative;
+    margin-bottom: 5vw;
+    padding-top: 17vw;
+    padding-bottom: 1vw;
+}
+.card1-page5{
+    margin-left: 10vw;
+}
+.card4-page5{
+    margin-right: 10vw;
+}
+.border{
+    position: absolute;
+    width: 14vw;
+    left: 2vw;
+    top: 1.5vw;
+}
+.profil{
+    position: absolute;
+    width: 12vw;
+    left: 3vw;
+    top: 2.5vw;
+    border-radius: 10vw;
+    background: #E2EEFF;
+}
+.check{
+    width: 2vw;
+    position: absolute;
+    left:8vw;
+    top:14vw;
+}
+.card p{
+    text-align: center;
+    margin-bottom: 1vw;
+    margin-top: 0.5vw;
+}
+.name-profil{
+    color: #2F2C4A;
+    font-family: inter;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+.name-socmed{
+    color: #656464;
+    font-family: inter;
+    font-size: 1vw;
+}
+
+
+@media screen and (max-width:680px) {
+    .option-header{
+        border-radius: 1vw;
+    }
+    .option-header button{
+        border-radius: 1vw;
+    }
+    .header-page5{
+        margin-top: 10vw;
+    }
+    .title-page5{
+        font-size: 3vw;
+        margin-bottom: 3vw;
+    }
+    .subtitle-page5{
+        font-size: 4vw;
+    }
+    .main-page5{
+        font-size: 2vw;
+        width: 50vw;
+    }
+    .option-header{
+        width: 50vw;
+    }
+    .option-header button{
+        width: 20vw;
+        font-size: 2vw;
+    }
+    
+}
